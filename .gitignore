@@ -1,0 +1,4 @@
+*-backups
+gerbers
+fp-info-cache
+*.kicad_prl
