@@ -2646,7 +2646,7 @@
       (reference "R202") (unit 1) (value "8.2k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b869"
-      (reference "R203") (unit 1) (value "330k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R203") (unit 1) (value "2.2M") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b808"
       (reference "R204") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -2868,10 +2868,10 @@
       (reference "RV204") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b8da"
-      (reference "RV205") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
+      (reference "RV205") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b847"
-      (reference "RV206") (unit 1) (value "100") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
+      (reference "RV206") (unit 1) (value "100") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060e0b84a/00000000-0000-0000-0000-000060e2096f"
       (reference "RV301") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
