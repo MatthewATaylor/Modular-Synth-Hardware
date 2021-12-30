@@ -790,7 +790,7 @@
     (property "Value" "10k" (id 1) (at 104.902 57.023 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (id 2) (at 106.68 55.88 0)
+    (property "Footprint" "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved" (id 2) (at 106.68 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 106.68 55.88 0)

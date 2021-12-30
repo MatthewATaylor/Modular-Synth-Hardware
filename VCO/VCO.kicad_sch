@@ -2868,16 +2868,16 @@
       (reference "RV204") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b8da"
-      (reference "RV205") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV205") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b847"
-      (reference "RV206") (unit 1) (value "100") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV206") (unit 1) (value "100") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
     )
     (path "/00000000-0000-0000-0000-000060e0b84a/00000000-0000-0000-0000-000060e2096f"
-      (reference "RV301") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV301") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
     )
     (path "/00000000-0000-0000-0000-000060e0b84a/00000000-0000-0000-0000-000060e2094f"
-      (reference "RV302") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV302") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
     )
     (path "/00000000-0000-0000-0000-000060e0b96a/00000000-0000-0000-0000-000060e2ffa0"
       (reference "RV401") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles")
@@ -2886,16 +2886,16 @@
       (reference "RV402") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles")
     )
     (path "/00000000-0000-0000-0000-000060e0b96a/00000000-0000-0000-0000-000060e2ffee"
-      (reference "RV403") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV403") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
     )
     (path "/00000000-0000-0000-0000-000060e0d50f/00000000-0000-0000-0000-000060e44f25"
-      (reference "RV501") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV501") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
     )
     (path "/00000000-0000-0000-0000-000060e0d50f/00000000-0000-0000-0000-000060e45016"
-      (reference "RV502") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV502") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
     )
     (path "/00000000-0000-0000-0000-000060d0bc03/00000000-0000-0000-0000-000060d374f4"
-      (reference "RV601") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV601") (unit 1) (value "10k") (footprint "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060c3e28b"
       (reference "SW201") (unit 1) (value "SW_SPDT") (footprint "Switch:MTS-102_MTS-103_MTS-112_MTS-113_MTS-123")

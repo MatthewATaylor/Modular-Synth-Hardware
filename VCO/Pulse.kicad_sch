@@ -920,7 +920,7 @@
     (uuid 00000000-0000-0000-0000-000060e2ffee)
     (property "Reference" "RV403" (id 0) (at 167.64 89.9922 90))
     (property "Value" "10k" (id 1) (at 167.64 92.3036 90))
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" (id 2) (at 167.64 95.25 0)
+    (property "Footprint" "Custom:Potentiometer_Runtron_RM-065_Vertical_Improved" (id 2) (at 167.64 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 167.64 95.25 0)
