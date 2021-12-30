@@ -2291,9 +2291,6 @@
     (path "/00000000-0000-0000-0000-000060b7435c"
       (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060e0d50f/00000000-0000-0000-0000-000060ed6bd9"
-      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b9ab"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
     )
@@ -2365,6 +2362,9 @@
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b967"
       (reference "#PWR0224") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060f08879/ed6eee9d-5b55-45cb-b254-955aadedb9d5"
+      (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060e0b84a/00000000-0000-0000-0000-000060e20967"
       (reference "#PWR0301") (unit 1) (value "GND") (footprint "")
@@ -2664,7 +2664,7 @@
       (reference "R208") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b7d2"
-      (reference "R209") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R209") (unit 1) (value "2k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b91b"
       (reference "R210") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -2672,17 +2672,11 @@
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b915"
       (reference "R211") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b835"
-      (reference "R212") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b8b7"
-      (reference "R213") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
-    )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b841"
-      (reference "R214") (unit 1) (value "3.9k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R214") (unit 1) (value "820") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b83b"
-      (reference "R215") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R215") (unit 1) (value "47") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b982"
       (reference "R216") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -2877,7 +2871,7 @@
       (reference "RV205") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b847"
-      (reference "RV206") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
+      (reference "RV206") (unit 1) (value "100") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060e0b84a/00000000-0000-0000-0000-000060e2096f"
       (reference "RV301") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical")
@@ -2905,9 +2899,6 @@
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060c3e28b"
       (reference "SW201") (unit 1) (value "SW_SPDT") (footprint "Switch:MTS-102_MTS-103_MTS-112_MTS-113_MTS-123")
-    )
-    (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b7c6"
-      (reference "TH201") (unit 1) (value "10k") (footprint "Thermistor:THERM_MF52-103")
     )
     (path "/00000000-0000-0000-0000-000060f08879/00000000-0000-0000-0000-000060f4b802"
       (reference "U101") (unit 1) (value "TL072") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")

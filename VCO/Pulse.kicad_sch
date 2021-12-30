@@ -503,7 +503,7 @@
   )
 
   (no_connect (at 204.47 95.25) (uuid b31a8b5f-ede9-45bd-a299-491a50de5768))
-  (no_connect (at 99.06 91.44) (uuid b31a8b5f-ede9-45bd-a299-491a50de5768))
+  (no_connect (at 99.06 91.44) (uuid b31a8b5f-ede9-45bd-a299-491a50de5769))
 
   (wire (pts (xy 142.24 97.79) (xy 147.32 97.79))
     (stroke (width 0) (type default) (color 0 0 0 0))
