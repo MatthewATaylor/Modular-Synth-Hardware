@@ -1987,7 +1987,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f4b897)
     (property "Reference" "R202" (id 0) (at 64.77 139.5222 90))
-    (property "Value" "8.2k" (id 1) (at 64.77 141.8336 90))
+    (property "Value" "6.8k" (id 1) (at 64.77 141.8336 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 64.77 146.558 90)
       (effects (font (size 1.27 1.27)) hide)
     )
