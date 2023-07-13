@@ -500,9 +500,9 @@
   )
 
   (no_connect (at 161.29 33.02) (uuid 91dd3cca-ecfc-40fb-98ce-7431c0cf2978))
-  (no_connect (at 161.29 54.61) (uuid 91dd3cca-ecfc-40fb-98ce-7431c0cf2978))
-  (no_connect (at 161.29 100.33) (uuid 91dd3cca-ecfc-40fb-98ce-7431c0cf2978))
-  (no_connect (at 161.29 121.92) (uuid 91dd3cca-ecfc-40fb-98ce-7431c0cf2978))
+  (no_connect (at 161.29 54.61) (uuid 91dd3cca-ecfc-40fb-98ce-7431c0cf2979))
+  (no_connect (at 161.29 100.33) (uuid 91dd3cca-ecfc-40fb-98ce-7431c0cf297a))
+  (no_connect (at 161.29 121.92) (uuid 91dd3cca-ecfc-40fb-98ce-7431c0cf297b))
 
   (wire (pts (xy 148.59 124.46) (xy 148.59 138.43))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -666,7 +666,7 @@
     (uuid 73f40fda-e6eb-4f93-9482-56cf47d84a87)
   )
 
-  (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 166.37 102.87 180)
+  (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 166.37 102.87 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d548e)
     (property "Reference" "J303" (id 0) (at 166.37 93.98 0))
@@ -683,7 +683,7 @@
     (pin "TN" (uuid 471e1a4a-4f01-49bb-8f90-7a3c8a3be581))
   )
 
-  (symbol (lib_id "power:GND") (at 161.29 105.41 0)
+  (symbol (lib_id "power:GND") (at 161.29 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d5494)
     (property "Reference" "#PWR0308" (id 0) (at 161.29 111.76 0)
@@ -699,7 +699,7 @@
     (pin "1" (uuid 6010ffee-8b0d-456f-8518-b2b51debc1a1))
   )
 
-  (symbol (lib_id "Device:R") (at 106.68 137.16 90)
+  (symbol (lib_id "Device:R") (at 106.68 137.16 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d549b)
     (property "Reference" "R301" (id 0) (at 106.68 142.4178 90))
@@ -714,7 +714,7 @@
     (pin "2" (uuid 92896f5e-a071-4348-a09f-24d20ffc5258))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL072") (at 118.11 114.3 0)
+  (symbol (lib_id "Amplifier_Operational:TL072") (at 118.11 114.3 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54a1)
     (property "Reference" "U102" (id 0) (at 118.11 104.9782 0))
@@ -725,12 +725,17 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 118.11 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 5876326b-3781-4a49-b20a-4263d149c1bc))
+    (pin "2" (uuid 55848615-61b9-4c4d-8958-0e0dc678b69e))
+    (pin "3" (uuid 6d81cdbb-0756-42bf-9fd2-f16076f9fd1c))
     (pin "5" (uuid c3f7ab00-389b-4625-aacc-888299416a0a))
     (pin "6" (uuid 47be7051-02f5-4711-b225-3a4f00922cb4))
     (pin "7" (uuid ad9c8ceb-b0ce-44d3-b2dc-d0d049b15f81))
+    (pin "4" (uuid 156c3b53-ae0e-4bf6-843b-4a5e32b505b1))
+    (pin "8" (uuid 5bf64409-2eb4-4817-85a1-ed45b13aaa64))
   )
 
-  (symbol (lib_id "Device:R") (at 125.73 120.65 180)
+  (symbol (lib_id "Device:R") (at 125.73 120.65 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54a7)
     (property "Reference" "R304" (id 0) (at 130.9878 120.65 90))
@@ -745,7 +750,7 @@
     (pin "2" (uuid 636b86dd-3fa0-4db4-bfeb-6cd13d1a308f))
   )
 
-  (symbol (lib_id "power:GND") (at 107.95 111.76 0)
+  (symbol (lib_id "power:GND") (at 107.95 111.76 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54b4)
     (property "Reference" "#PWR0301" (id 0) (at 107.95 118.11 0)
@@ -761,7 +766,7 @@
     (pin "1" (uuid fd7db19c-179f-420c-83c1-251bf5ec82d0))
   )
 
-  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 125.73 130.81 180)
+  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 125.73 130.81 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54bb)
     (property "Reference" "RV302" (id 0) (at 127.508 129.6416 0)
@@ -781,7 +786,7 @@
     (pin "3" (uuid 243935ad-4e4d-4474-bbdf-982b46b2fd7b))
   )
 
-  (symbol (lib_id "Device:R") (at 140.97 114.3 270)
+  (symbol (lib_id "Device:R") (at 140.97 114.3 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54c5)
     (property "Reference" "R308" (id 0) (at 140.97 109.0422 90))
@@ -796,7 +801,7 @@
     (pin "2" (uuid 137e64e5-e8c2-4d69-bb13-98f6c722f3b7))
   )
 
-  (symbol (lib_id "power:GND") (at 130.81 100.33 0)
+  (symbol (lib_id "power:GND") (at 130.81 100.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54cc)
     (property "Reference" "#PWR0304" (id 0) (at 130.81 106.68 0)
@@ -812,7 +817,7 @@
     (pin "1" (uuid ed7374f2-0d71-4807-a68f-f6079219a86a))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL072") (at 140.97 102.87 0)
+  (symbol (lib_id "Amplifier_Operational:TL072") (at 140.97 102.87 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54d2)
     (property "Reference" "U103" (id 0) (at 140.97 93.5482 0))
@@ -826,9 +831,14 @@
     (pin "1" (uuid 6d804a8e-dce8-4303-b843-38627d966495))
     (pin "2" (uuid daa1f4c1-0f7c-4c10-b231-a0be5b4897c6))
     (pin "3" (uuid 813e4553-f867-4f5b-82c1-b11be9623da1))
+    (pin "5" (uuid d4ee4f43-4a44-4219-972c-ae5131628aec))
+    (pin "6" (uuid 732621d2-08dc-4b37-9def-890fb55544df))
+    (pin "7" (uuid fdebb2ed-df11-4c64-9e8d-9ce792a38436))
+    (pin "4" (uuid d9782272-bde3-45b6-a311-bbead8491a4d))
+    (pin "8" (uuid 9de970e4-bfbb-40fe-9c32-0518f661f325))
   )
 
-  (symbol (lib_id "Device:R") (at 129.54 114.3 270)
+  (symbol (lib_id "Device:R") (at 129.54 114.3 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54d8)
     (property "Reference" "R305" (id 0) (at 129.54 109.0422 90))
@@ -843,7 +853,7 @@
     (pin "2" (uuid 74ecf149-cc35-4150-8b9a-fcf24f865b97))
   )
 
-  (symbol (lib_id "Device:R") (at 152.4 102.87 270)
+  (symbol (lib_id "Device:R") (at 152.4 102.87 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54e1)
     (property "Reference" "R311" (id 0) (at 152.4 97.6122 90))
@@ -858,7 +868,7 @@
     (pin "2" (uuid c11cff23-214d-44d1-b6cf-f038fa8f5ff0))
   )
 
-  (symbol (lib_id "Device:R") (at 152.4 124.46 270)
+  (symbol (lib_id "Device:R") (at 152.4 124.46 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54e7)
     (property "Reference" "R312" (id 0) (at 152.4 119.2022 90))
@@ -873,7 +883,7 @@
     (pin "2" (uuid 0b49513a-02ff-4317-81b4-f33f501ca306))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL072") (at 156.21 140.97 0)
+  (symbol (lib_id "Amplifier_Operational:TL072") (at 156.21 140.97 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54ef)
     (property "Reference" "U104" (id 0) (at 156.21 131.6482 0))
@@ -887,9 +897,14 @@
     (pin "1" (uuid 80d0bbc2-14f7-448d-8aa6-8c3905d3d9e6))
     (pin "2" (uuid 2c8b8865-c8e2-4a82-94a6-ef91b67d531b))
     (pin "3" (uuid 1c186107-50c1-4782-abbf-69f5ab7ac836))
+    (pin "5" (uuid bdb3789f-9ffa-4de3-8ef6-3725d8fec628))
+    (pin "6" (uuid 873a94e7-97ae-48b2-8daa-ca3ed2e69192))
+    (pin "7" (uuid d957d86b-ef49-4c19-93f0-3b9c238944f0))
+    (pin "4" (uuid f7321c45-c04a-456e-8776-a054f29199c0))
+    (pin "8" (uuid 69849050-1419-46b7-b09c-602383ff3a00))
   )
 
-  (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 166.37 124.46 180)
+  (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 166.37 124.46 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54f8)
     (property "Reference" "J304" (id 0) (at 166.37 115.57 0))
@@ -906,7 +921,7 @@
     (pin "TN" (uuid 783caf9d-4324-476e-a13f-fdc754e21b09))
   )
 
-  (symbol (lib_id "power:GND") (at 161.29 127 0)
+  (symbol (lib_id "power:GND") (at 161.29 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d54fe)
     (property "Reference" "#PWR0309" (id 0) (at 161.29 133.35 0)
@@ -922,7 +937,7 @@
     (pin "1" (uuid 5207a161-b2b2-4b28-9c2b-79d30cb47c41))
   )
 
-  (symbol (lib_id "Device:R") (at 167.64 140.97 270)
+  (symbol (lib_id "Device:R") (at 167.64 140.97 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d5507)
     (property "Reference" "R314" (id 0) (at 167.64 135.7122 90))
@@ -937,7 +952,7 @@
     (pin "2" (uuid cd959b9f-9c4c-436a-979c-f6aeaafb6760))
   )
 
-  (symbol (lib_id "Device:LED") (at 175.26 140.97 180)
+  (symbol (lib_id "Device:LED") (at 175.26 140.97 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d550d)
     (property "Reference" "D302" (id 0) (at 175.4378 134.493 0))
@@ -952,7 +967,7 @@
     (pin "2" (uuid f06e6b01-b7fe-465d-a080-7a947f0af6d0))
   )
 
-  (symbol (lib_id "power:GND") (at 179.07 140.97 0)
+  (symbol (lib_id "power:GND") (at 179.07 140.97 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612d5513)
     (property "Reference" "#PWR0311" (id 0) (at 179.07 147.32 0)
@@ -968,7 +983,7 @@
     (pin "1" (uuid f8334445-03d8-4bd9-86b6-6d3e42f0464a))
   )
 
-  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 116.84 27.94 0)
+  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 116.84 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3c1)
     (property "Reference" "RV301" (id 0) (at 115.062 29.1084 0)
@@ -988,7 +1003,7 @@
     (pin "3" (uuid 89c7d8e0-1fb0-49c3-8d7c-49375222cc10))
   )
 
-  (symbol (lib_id "power:+12V") (at 116.84 24.13 0)
+  (symbol (lib_id "power:+12V") (at 116.84 24.13 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3c7)
     (property "Reference" "#PWR0302" (id 0) (at 116.84 27.94 0)
@@ -1004,7 +1019,7 @@
     (pin "1" (uuid fdf0d39f-1a58-42f5-b09e-63b9f31cb9b9))
   )
 
-  (symbol (lib_id "power:GND") (at 116.84 31.75 0)
+  (symbol (lib_id "power:GND") (at 116.84 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3cd)
     (property "Reference" "#PWR0303" (id 0) (at 116.84 38.1 0)
@@ -1020,7 +1035,7 @@
     (pin "1" (uuid c8cbda40-5047-46d5-a141-b9a8fcc8d6c1))
   )
 
-  (symbol (lib_id "Device:R") (at 124.46 27.94 90)
+  (symbol (lib_id "Device:R") (at 124.46 27.94 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3d3)
     (property "Reference" "R302" (id 0) (at 124.46 33.1978 90))
@@ -1035,7 +1050,7 @@
     (pin "2" (uuid f4a522d9-6a9c-4c7e-afe4-d9a43f31adeb))
   )
 
-  (symbol (lib_id "Device:R") (at 124.46 38.1 90)
+  (symbol (lib_id "Device:R") (at 124.46 38.1 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3d9)
     (property "Reference" "R303" (id 0) (at 124.46 43.3578 90))
@@ -1050,7 +1065,7 @@
     (pin "2" (uuid 6e2f8f76-29d5-444d-a917-2c68c9283072))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL072") (at 140.97 35.56 0)
+  (symbol (lib_id "Amplifier_Operational:TL072") (at 140.97 35.56 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3e2)
     (property "Reference" "U103" (id 0) (at 140.97 26.2382 0))
@@ -1061,12 +1076,17 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 140.97 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 9986873f-2075-4a47-9a40-45920a209855))
+    (pin "2" (uuid 589b6f4e-0595-4e78-81a4-9ffbad673097))
+    (pin "3" (uuid 787cdd15-a2c0-46f2-b2c2-3d1d63394b29))
     (pin "5" (uuid fcab585e-c958-4dc3-9a69-f71de7972867))
     (pin "6" (uuid 5447db57-1cab-4e40-9317-1095b87dcd49))
     (pin "7" (uuid 516237b3-65ec-4e24-9b05-154d044d8ad4))
+    (pin "4" (uuid 231f3b51-831d-495e-9ecc-781859a7821d))
+    (pin "8" (uuid 33c5a339-1acd-4285-b5a4-32b2de57b036))
   )
 
-  (symbol (lib_id "Device:R") (at 140.97 46.99 270)
+  (symbol (lib_id "Device:R") (at 140.97 46.99 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3e8)
     (property "Reference" "R307" (id 0) (at 140.97 41.7322 90))
@@ -1081,7 +1101,7 @@
     (pin "2" (uuid 0ab840ca-6df1-485b-88b6-36beb8e6e7b5))
   )
 
-  (symbol (lib_id "Device:R") (at 133.35 50.8 0)
+  (symbol (lib_id "Device:R") (at 133.35 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3f1)
     (property "Reference" "R306" (id 0) (at 128.0922 50.8 90))
@@ -1096,7 +1116,7 @@
     (pin "2" (uuid 6c5846ed-9a39-4b31-ae05-518c617f00ef))
   )
 
-  (symbol (lib_id "power:GND") (at 133.35 54.61 0)
+  (symbol (lib_id "power:GND") (at 133.35 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc3f7)
     (property "Reference" "#PWR0305" (id 0) (at 133.35 60.96 0)
@@ -1112,7 +1132,7 @@
     (pin "1" (uuid 17f86657-1c91-47fa-b4d7-edd164fa4881))
   )
 
-  (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 166.37 35.56 180)
+  (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 166.37 35.56 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc401)
     (property "Reference" "J301" (id 0) (at 166.37 26.67 0))
@@ -1129,7 +1149,7 @@
     (pin "TN" (uuid 1ca311e7-4ea5-45a2-a098-590db1eacfa5))
   )
 
-  (symbol (lib_id "power:GND") (at 161.29 38.1 0)
+  (symbol (lib_id "power:GND") (at 161.29 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc407)
     (property "Reference" "#PWR0306" (id 0) (at 161.29 44.45 0)
@@ -1145,7 +1165,7 @@
     (pin "1" (uuid 1d3ff808-717f-434e-a57b-74feb2ca562a))
   )
 
-  (symbol (lib_id "Device:R") (at 152.4 35.56 270)
+  (symbol (lib_id "Device:R") (at 152.4 35.56 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc40e)
     (property "Reference" "R309" (id 0) (at 152.4 30.3022 90))
@@ -1160,7 +1180,7 @@
     (pin "2" (uuid 97589674-b67a-4839-8e60-762fe2645efa))
   )
 
-  (symbol (lib_id "Device:R") (at 152.4 57.15 270)
+  (symbol (lib_id "Device:R") (at 152.4 57.15 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc414)
     (property "Reference" "R310" (id 0) (at 152.4 51.8922 90))
@@ -1175,7 +1195,7 @@
     (pin "2" (uuid ad4db51d-4066-4aac-af4d-c1da86254a40))
   )
 
-  (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 166.37 57.15 180)
+  (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 166.37 57.15 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc41a)
     (property "Reference" "J302" (id 0) (at 166.37 48.26 0))
@@ -1192,7 +1212,7 @@
     (pin "TN" (uuid 49f90834-8f83-4d04-8065-2005792e48cd))
   )
 
-  (symbol (lib_id "power:GND") (at 161.29 59.69 0)
+  (symbol (lib_id "power:GND") (at 161.29 59.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc420)
     (property "Reference" "#PWR0307" (id 0) (at 161.29 66.04 0)
@@ -1208,7 +1228,7 @@
     (pin "1" (uuid f319a88e-154c-4208-8701-4c90befb33ca))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL072") (at 156.21 73.66 0)
+  (symbol (lib_id "Amplifier_Operational:TL072") (at 156.21 73.66 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc42b)
     (property "Reference" "U104" (id 0) (at 156.21 64.3382 0))
@@ -1219,12 +1239,17 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 156.21 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid d491abf1-2377-4550-84f3-7381c91cd5dc))
+    (pin "2" (uuid 4ffd7bc1-303e-47de-bc60-967cbb88d922))
+    (pin "3" (uuid 564207cc-7311-48cc-966c-825851049cc6))
     (pin "5" (uuid 909a1104-0161-4f7b-9959-7c80e7c4e368))
     (pin "6" (uuid e7852bf0-0727-47c5-8785-9e89418159b8))
     (pin "7" (uuid c32c447d-9805-4465-b85a-d9ca5ff23c6c))
+    (pin "4" (uuid 69d85983-80e4-42de-beab-e8bf724f1d8b))
+    (pin "8" (uuid 8cfe728b-9988-4a7c-a26e-e2052d9852f2))
   )
 
-  (symbol (lib_id "Device:R") (at 167.64 73.66 270)
+  (symbol (lib_id "Device:R") (at 167.64 73.66 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc434)
     (property "Reference" "R313" (id 0) (at 167.64 68.4022 90))
@@ -1239,7 +1264,7 @@
     (pin "2" (uuid c4c963c2-8749-4c39-a8ba-ae32dfdc1f08))
   )
 
-  (symbol (lib_id "Device:LED") (at 175.26 73.66 180)
+  (symbol (lib_id "Device:LED") (at 175.26 73.66 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc43a)
     (property "Reference" "D301" (id 0) (at 175.4378 67.183 0))
@@ -1254,7 +1279,7 @@
     (pin "2" (uuid 451ab36f-6caa-4aec-8bf6-8cd617dfe2bc))
   )
 
-  (symbol (lib_id "power:GND") (at 179.07 73.66 0)
+  (symbol (lib_id "power:GND") (at 179.07 73.66 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612dc440)
     (property "Reference" "#PWR0310" (id 0) (at 179.07 80.01 0)
