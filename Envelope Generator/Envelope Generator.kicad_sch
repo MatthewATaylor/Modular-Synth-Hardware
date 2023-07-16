@@ -1753,7 +1753,7 @@
     (in_bom yes) (on_board yes)
     (uuid 089c2501-fe88-4ad8-b9f1-189eb22213e5)
     (property "Reference" "C?" (id 0) (at 260.35 120.8786 0))
-    (property "Value" "1n" (id 1) (at 260.35 123.19 0))
+    (property "Value" "4.7n" (id 1) (at 260.35 123.19 0))
     (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (id 2) (at 266.3952 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3101,7 +3101,7 @@
       (reference "C?") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/089c2501-fe88-4ad8-b9f1-189eb22213e5"
-      (reference "C?") (unit 1) (value "1n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C?") (unit 1) (value "4.7n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/1befabcd-de72-467c-b8bf-dd2aee91e138"
       (reference "C?") (unit 1) (value "10n") (footprint "")
