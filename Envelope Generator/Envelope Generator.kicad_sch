@@ -1690,7 +1690,7 @@
     (in_bom yes) (on_board yes)
     (uuid 03862857-4195-499f-81ad-5d67c8f342af)
     (property "Reference" "R?" (id 0) (at 261.62 112.8522 90))
-    (property "Value" "220k" (id 1) (at 261.62 115.1636 90))
+    (property "Value" "330k" (id 1) (at 261.62 115.1636 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 261.62 116.332 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1856,6 +1856,7 @@
     (property "Datasheet" "~" (id 3) (at 269.24 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Notes" "Green" (id 4) (at 269.24 109.22 0))
     (pin "1" (uuid 62755ac5-e9ab-4b4a-821a-2bbb3a84d2fa))
     (pin "2" (uuid b48162bb-6e9b-4ea7-b1ee-1bce3dcf73ce))
   )
@@ -3175,7 +3176,7 @@
       (reference "Q?") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/03862857-4195-499f-81ad-5d67c8f342af"
-      (reference "R?") (unit 1) (value "220k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R?") (unit 1) (value "330k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/074efb0f-94f3-4a4b-9c69-c9b1843b3ba9"
       (reference "R?") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
