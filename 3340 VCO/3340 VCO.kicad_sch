@@ -3727,7 +3727,7 @@
     (in_bom yes) (on_board yes)
     (uuid 705821b6-3807-47c9-87e3-7392fc7d7bc8)
     (property "Reference" "R?" (id 0) (at 44.45 83.82 90))
-    (property "Value" "100k" (id 1) (at 44.45 86.36 90))
+    (property "Value" "220k" (id 1) (at 44.45 86.36 90))
     (property "Footprint" "" (id 2) (at 44.45 91.948 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4013,7 +4013,7 @@
     (property "Reference" "R?" (id 0) (at 39.37 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47k" (id 1) (at 39.37 83.8199 0)
+    (property "Value" "100k" (id 1) (at 39.37 83.8199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 35.052 82.55 90)
@@ -4414,7 +4414,7 @@
     (property "Reference" "R?" (id 0) (at 39.37 96.5199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47k" (id 1) (at 39.37 99.0599 0)
+    (property "Value" "100k" (id 1) (at 39.37 99.0599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 35.052 97.79 90)
@@ -5714,7 +5714,7 @@
       (reference "R?") (unit 1) (value "5.6k") (footprint "")
     )
     (path "/705821b6-3807-47c9-87e3-7392fc7d7bc8"
-      (reference "R?") (unit 1) (value "100k") (footprint "")
+      (reference "R?") (unit 1) (value "220k") (footprint "")
     )
     (path "/70b432db-9833-410a-812a-00e9598712de"
       (reference "R?") (unit 1) (value "150k") (footprint "")
@@ -5732,7 +5732,7 @@
       (reference "R?") (unit 1) (value "1k") (footprint "")
     )
     (path "/8714a339-ddce-4e69-b6c7-679ae8b09f8e"
-      (reference "R?") (unit 1) (value "47k") (footprint "")
+      (reference "R?") (unit 1) (value "100k") (footprint "")
     )
     (path "/871ec456-47b6-46d1-aa40-5439bd31c284"
       (reference "R?") (unit 1) (value "47k") (footprint "")
@@ -5753,7 +5753,7 @@
       (reference "R?") (unit 1) (value "100k") (footprint "")
     )
     (path "/a1b1b2ed-3726-4187-9b5f-244dba3ad7fa"
-      (reference "R?") (unit 1) (value "47k") (footprint "")
+      (reference "R?") (unit 1) (value "100k") (footprint "")
     )
     (path "/a86007de-9a37-4477-ab0d-b479825cd733"
       (reference "R?") (unit 1) (value "1k") (footprint "")
