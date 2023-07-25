@@ -1772,22 +1772,6 @@
     (uuid ff2613e8-1ff0-44a7-98e9-7a2865c2d31a)
   )
 
-  (symbol (lib_id "power:GND") (at 267.97 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 014c11ec-1d98-4e09-96e4-3eb7d1eec2e7)
-    (property "Reference" "#PWR?" (id 0) (at 267.97 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 268.097 104.7242 0))
-    (property "Footprint" "" (id 2) (at 267.97 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 267.97 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1991d92e-3e99-4488-94b9-798f5e688c41))
-  )
-
   (symbol (lib_id "Device:R") (at 266.7 118.11 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 03862857-4195-499f-81ad-5d67c8f342af)
@@ -1982,6 +1966,22 @@
     (pin "2" (uuid b48162bb-6e9b-4ea7-b1ee-1bce3dcf73ce))
   )
 
+  (symbol (lib_id "Custom:Chasis") (at 267.97 81.28 0) (unit 1)
+    (in_bom no) (on_board no)
+    (uuid 1f3601f2-eb41-4ac6-b671-98d34bbb4318)
+    (property "Reference" "U?" (id 0) (at 267.97 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Chasis" (id 1) (at 267.97 84.455 0))
+    (property "Footprint" "" (id 2) (at 267.97 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 267.97 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7e2fa767-e54f-4e5e-afbe-5b771ea5e96b))
+  )
+
   (symbol (lib_id "Transistor_BJT:2N3904") (at 113.03 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 224df485-fce0-4483-929f-47f404c18064)
@@ -2124,6 +2124,22 @@
     (pin "1" (uuid 910ce943-d627-4f36-ab1e-10c46bea1848))
     (pin "2" (uuid 43776724-b077-471c-a4ad-3e0f6e238279))
     (pin "3" (uuid 29d0565c-9ef4-40af-8b54-838d4903c7c5))
+  )
+
+  (symbol (lib_id "Custom:Chasis") (at 267.97 100.33 0) (unit 1)
+    (in_bom no) (on_board no)
+    (uuid 46268378-4d65-4f39-9edd-23fcdb0500eb)
+    (property "Reference" "U?" (id 0) (at 267.97 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Chasis" (id 1) (at 267.97 103.505 0))
+    (property "Footprint" "" (id 2) (at 267.97 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 267.97 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd49dbb9-6fe6-46a3-9c32-2c8c0e55494d))
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 97.79 153.67 180) (unit 1)
@@ -2978,22 +2994,6 @@
     (pin "1" (uuid 7fbf24c7-c289-4f4d-b24d-5c9e4d0d13a6))
   )
 
-  (symbol (lib_id "power:GND") (at 267.97 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid da61fcac-59b0-4c4e-84ee-9075f2b12462)
-    (property "Reference" "#PWR?" (id 0) (at 267.97 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 268.097 85.6742 0))
-    (property "Footprint" "" (id 2) (at 267.97 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 267.97 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d1ce9030-f8fa-4448-918f-0c937ea813dc))
-  )
-
   (symbol (lib_id "power:-12V") (at 114.3 161.29 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e036b0f3-4039-4344-9122-13cf0412bafc)
@@ -3205,9 +3205,6 @@
     (path "/f4f550c7-3bce-4629-b413-ab8c90c47f7b"
       (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/014c11ec-1d98-4e09-96e4-3eb7d1eec2e7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/07452a4b-bfeb-4759-b056-122dd9448e17"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -3276,9 +3273,6 @@
     )
     (path "/d945508f-0b8d-4c87-b70d-d80e919e77a1"
       (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
-    )
-    (path "/da61fcac-59b0-4c4e-84ee-9075f2b12462"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/e036b0f3-4039-4344-9122-13cf0412bafc"
       (reference "#PWR?") (unit 1) (value "-12V") (footprint "")
@@ -3431,6 +3425,12 @@
       (reference "SW?") (unit 1) (value "SW_SPDT") (footprint "Switch:MTS-102_MTS-103_MTS-112_MTS-113_MTS-123")
     )
     (path "/1bae6202-f7af-4a2b-9a12-99035f67b8e0"
+      (reference "U?") (unit 1) (value "Chasis") (footprint "")
+    )
+    (path "/1f3601f2-eb41-4ac6-b671-98d34bbb4318"
+      (reference "U?") (unit 1) (value "Chasis") (footprint "")
+    )
+    (path "/46268378-4d65-4f39-9edd-23fcdb0500eb"
       (reference "U?") (unit 1) (value "Chasis") (footprint "")
     )
     (path "/c9956ca2-f998-46d3-b346-20062e98aba7"
