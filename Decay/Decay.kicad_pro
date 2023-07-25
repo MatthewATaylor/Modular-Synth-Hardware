@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AR.kicad_pro",
+    "filename": "Decay.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -318,7 +318,7 @@
   },
   "sheets": [
     [
-      "3cb13cec-8dfb-43ef-bb1c-7e5adea84684",
+      "c4c63704-bf49-4ed6-a5c0-799130391c21",
       ""
     ]
   ],
