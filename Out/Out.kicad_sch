@@ -5,6 +5,91 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "0_power:Chassis" (power) (in_bom no) (on_board no)
+      (property "Reference" "U" (id 0) (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "Chassis" (id 1) (at 0 -3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Chassis_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -1.27)
+            (xy -1.27 -2.032)
+            (xy -1.27 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 -1.27)
+            (xy -0.762 -2.032)
+            (xy -0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy -0.254 -2.032)
+            (xy -0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 -1.27)
+            (xy 0.254 -2.032)
+            (xy 0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy -1.016 -1.27)
+            (xy -1.016 -1.27)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "Chassis_1_1"
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "Chassis" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:AudioJack2_SwitchT" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
@@ -197,91 +282,6 @@
         (pin passive line (at -5.08 -5.08 0) (length 3.81)
           (name "Pin_9" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Custom:Chassis" (power) (in_bom no) (on_board no)
-      (property "Reference" "U" (id 0) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "Chassis" (id 1) (at 0 -3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Chassis_0_1"
-        (polyline
-          (pts
-            (xy 0 -1.27)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -1.27)
-            (xy -1.27 -2.032)
-            (xy -1.27 -2.032)
-          )
-          (stroke (width 0.2032) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.508 -1.27)
-            (xy -0.762 -2.032)
-            (xy -0.762 -2.032)
-          )
-          (stroke (width 0.2032) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -1.27)
-            (xy -0.254 -2.032)
-            (xy -0.254 -2.032)
-          )
-          (stroke (width 0.2032) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.508 -1.27)
-            (xy 0.254 -2.032)
-            (xy 0.254 -2.032)
-          )
-          (stroke (width 0.2032) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 -1.27)
-            (xy -1.016 -1.27)
-            (xy -1.016 -1.27)
-          )
-          (stroke (width 0.2032) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 -1.27)
-            (xy 0.762 -2.032)
-            (xy 0.762 -2.032)
-            (xy 0.762 -2.032)
-          )
-          (stroke (width 0.2032) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "Chassis_1_1"
-        (pin power_in line (at 0 0 0) (length 0) hide
-          (name "Chassis" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -898,7 +898,7 @@
     (pin "2" (uuid 6f2bdde4-8806-4012-975e-48d063bbadfb))
   )
 
-  (symbol (lib_id "Custom:Chassis") (at 121.92 133.35 0) (unit 1)
+  (symbol (lib_id "0_power:Chassis") (at 121.92 133.35 0) (unit 1)
     (in_bom no) (on_board no)
     (uuid 220c4fdc-7bff-4f27-a087-38da4cc80504)
     (property "Reference" "#U0101" (id 0) (at 121.92 138.43 0)
@@ -999,7 +999,7 @@
     (pin "1" (uuid a8b4289e-4b15-476c-8de0-bea0b7c49898))
   )
 
-  (symbol (lib_id "Custom:Chassis") (at 127 92.71 0) (unit 1)
+  (symbol (lib_id "0_power:Chassis") (at 127 92.71 0) (unit 1)
     (in_bom no) (on_board no)
     (uuid 490c1e1d-682f-48a5-aacf-acb4fecae990)
     (property "Reference" "#U0103" (id 0) (at 127 97.79 0)
@@ -1036,7 +1036,7 @@
     (uuid 64b1f0dd-2a7b-4ad8-80bd-53c8941a73fc)
     (property "Reference" "J103" (id 0) (at 113.03 133.35 90))
     (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 115.57 133.35 90))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (id 2) (at 133.35 133.35 0)
+    (property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-10A_2x05_P4.20mm_Vertical" (id 2) (at 133.35 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 133.35 133.35 0)
@@ -1095,7 +1095,7 @@
     (property "Value" "220p" (id 1) (at 142.621 95.6822 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 140.6652 97.79 0)
+    (property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm" (id 2) (at 140.6652 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 139.7 93.98 0)
@@ -1167,7 +1167,7 @@
     (property "Value" "10u" (id 1) (at 148.971 130.683 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (id 2) (at 147.0152 133.35 0)
+    (property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm" (id 2) (at 147.0152 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 146.05 129.54 0)
@@ -1238,7 +1238,7 @@
     (pin "2" (uuid dae8b224-3208-4521-9d91-7b115d4df330))
   )
 
-  (symbol (lib_id "Custom:Chassis") (at 127 68.58 0) (unit 1)
+  (symbol (lib_id "0_power:Chassis") (at 127 68.58 0) (unit 1)
     (in_bom no) (on_board no)
     (uuid f59b4cfc-c4d5-4823-b396-050e5aae9c14)
     (property "Reference" "#U0102" (id 0) (at 127 73.66 0)
@@ -1279,7 +1279,7 @@
     (property "Value" "220p" (id 1) (at 142.621 71.5522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 140.6652 73.66 0)
+    (property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm" (id 2) (at 140.6652 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 139.7 69.85 0)
@@ -1298,7 +1298,7 @@
     (property "Value" "10u" (id 1) (at 148.971 138.303 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (id 2) (at 147.0152 140.97 0)
+    (property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm" (id 2) (at 147.0152 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 146.05 137.16 0)
@@ -1428,52 +1428,52 @@
       (reference "#U0203") (unit 1) (value "Chassis") (footprint "")
     )
     (path "/fb0c653a-7fa1-40f7-a23d-e0ac8baaf0a6"
-      (reference "C101") (unit 1) (value "220p") (footprint "")
+      (reference "C101") (unit 1) (value "220p") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/7529b294-97ee-4f16-8395-0befce3177f3"
-      (reference "C102") (unit 1) (value "220p") (footprint "")
+      (reference "C102") (unit 1) (value "220p") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/c82c7613-4950-48e2-b7de-1e9f60506fbb"
-      (reference "C103") (unit 1) (value "10u") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C103") (unit 1) (value "10u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm")
     )
     (path "/fce5dbc2-693f-4a40-a502-5c76c7c08626"
-      (reference "C104") (unit 1) (value "10u") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
+      (reference "C104") (unit 1) (value "10u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/9b3125e3-066e-49b6-b9bc-97520580a900"
-      (reference "C201") (unit 1) (value "0.1u") (footprint "")
+      (reference "C201") (unit 1) (value "0.1u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/558fc7a7-05ac-4acc-9f75-3468f9a518f7"
-      (reference "C202") (unit 1) (value "0.1u") (footprint "")
+      (reference "C202") (unit 1) (value "0.1u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/ee51c965-ec67-4a74-a765-d22a5fe50878"
-      (reference "C203") (unit 1) (value "0.1u") (footprint "")
+      (reference "C203") (unit 1) (value "0.1u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/fe808bb8-c0bd-497c-b2d8-c295d5e3702f"
-      (reference "C204") (unit 1) (value "0.1u") (footprint "")
+      (reference "C204") (unit 1) (value "0.1u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/3be71610-dfe0-4d6d-bb20-ce60144b0ff7"
-      (reference "C205") (unit 1) (value "0.1u") (footprint "")
+      (reference "C205") (unit 1) (value "0.1u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/99a36ce5-3779-461b-845c-943b79d88913"
-      (reference "C206") (unit 1) (value "0.1u") (footprint "")
+      (reference "C206") (unit 1) (value "0.1u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/3291cf47-68a8-40a9-b563-5cf5105d4f7a"
-      (reference "C207") (unit 1) (value "22p") (footprint "")
+      (reference "C207") (unit 1) (value "22p") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/e53121d7-4017-44a4-b513-8ff6f3e0c98d"
-      (reference "C208") (unit 1) (value "22p") (footprint "")
+      (reference "C208") (unit 1) (value "22p") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/c0896020-107f-4bec-b55f-13077ef5f315"
-      (reference "C209") (unit 1) (value "100u") (footprint "")
+      (reference "C209") (unit 1) (value "100u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/f3f50a8b-cab6-48fb-a243-602b36700445"
-      (reference "C210") (unit 1) (value "100u") (footprint "")
+      (reference "C210") (unit 1) (value "100u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/da1341ec-92f6-40c0-9b65-d38f955cf8e3"
-      (reference "C211") (unit 1) (value "100u") (footprint "")
+      (reference "C211") (unit 1) (value "100u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/557643a0-262e-45aa-bf37-8d9edbaeb1bb"
-      (reference "C212") (unit 1) (value "100u") (footprint "")
+      (reference "C212") (unit 1) (value "100u") (footprint "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm")
     )
     (path "/00fe0490-f7e3-45f6-98fe-86b200e7827f"
       (reference "D101") (unit 1) (value "1N5819") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
@@ -1488,7 +1488,7 @@
       (reference "J102") (unit 1) (value "AudioJack2_SwitchT") (footprint "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles")
     )
     (path "/64b1f0dd-2a7b-4ad8-80bd-53c8941a73fc"
-      (reference "J103") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
+      (reference "J103") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-10A_2x05_P4.20mm_Vertical")
     )
     (path "/921d9291-9f2d-4400-a7d1-ccac800dfe66/277f7570-1414-4241-94d8-fee3bb728a8c"
       (reference "J201") (unit 1) (value "AudioJack3") (footprint "")
