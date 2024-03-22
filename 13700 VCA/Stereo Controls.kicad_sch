@@ -414,7 +414,7 @@
 				)
 			)
 		)
-		(symbol "Connector:AudioJack2_SwitchT"
+		(symbol "Connector_Audio:AudioJack2_SwitchT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1116,7 +1116,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1236,7 +1236,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1332,7 +1332,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1894,7 +1894,7 @@
 		(uuid "baa0c09e-b2e1-494e-aaf6-41e7001f6867")
 	)
 	(symbol
-		(lib_id "Connector:AudioJack2_SwitchT")
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
 		(at 81.28 76.2 0)
 		(mirror x)
 		(unit 1)
@@ -1939,7 +1939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
 			(at 81.28 76.2 0)
 			(effects
 				(font
@@ -2019,7 +2019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 128.27 123.19 0)
 			(effects
 				(font
@@ -2084,7 +2084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer with a mounting pin"
 			(at 91.44 81.28 0)
 			(effects
 				(font
@@ -2159,7 +2159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 128.27 134.62 0)
 			(effects
 				(font
@@ -2227,7 +2227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -2296,7 +2296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 132.08 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 140.97 81.28 0)
 			(effects
 				(font
@@ -2429,7 +2429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer with a mounting pin"
 			(at 91.44 104.14 0)
 			(effects
 				(font
@@ -2569,7 +2569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 128.27 138.43 0)
 			(effects
 				(font
@@ -2830,7 +2830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 91.44 100.33 0)
 			(effects
 				(font
@@ -2897,7 +2897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 134.62 130.81 0)
 			(effects
 				(font
@@ -2983,7 +2983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -3052,7 +3052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 85.09 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 128.27 127 0)
 			(effects
 				(font
@@ -3187,7 +3187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -3252,7 +3252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer with a mounting pin"
 			(at 207.01 78.74 0)
 			(effects
 				(font
@@ -3326,7 +3326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -3394,7 +3394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 140.97 71.12 0)
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:AudioJack2_SwitchT")
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
 		(at 196.85 73.66 0)
 		(mirror x)
 		(unit 1)
@@ -3464,7 +3464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
 			(at 196.85 73.66 0)
 			(effects
 				(font
@@ -3544,7 +3544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -3609,7 +3609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 99.06 81.28 0)
 			(effects
 				(font
@@ -3678,7 +3678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer with a mounting pin"
 			(at 207.01 101.6 0)
 			(effects
 				(font
@@ -3818,7 +3818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 97.79 0)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 118.11 95.25 0)
 			(effects
 				(font
@@ -3971,7 +3971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 			(at 140.97 95.25 0)
 			(effects
 				(font
@@ -4058,7 +4058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 207.01 105.41 0)
 			(effects
 				(font
@@ -4124,7 +4124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 110.49 97.79 0)
 			(effects
 				(font
@@ -4189,7 +4189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 118.11 81.28 0)
 			(effects
 				(font
