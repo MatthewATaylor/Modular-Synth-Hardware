@@ -39,6 +39,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -6269,7 +6308,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R128"
-			(at 3.81119 0.01 270)
+			(at 3.81119 0.01 -90)
 			(layer "B.SilkS")
 			(uuid "d91bedae-9cb5-40e9-94a7-aae1341e2f3c")
 			(effects
@@ -6281,7 +6320,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 3.81 -2.37 270)
+			(at 3.81 -2.37 -90)
 			(layer "B.Fab")
 			(uuid "18cb22f1-3827-4eba-b9f9-34c7ed03a00c")
 			(effects
@@ -6497,7 +6536,7 @@
 			(uuid "83d8f661-e67d-4974-b615-45784230295d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 270)
+			(at 3.81 0 -90)
 			(layer "B.Fab")
 			(uuid "1b4e1e40-8402-4bf8-9a41-a4c3da4bc51e")
 			(effects
@@ -15314,7 +15353,7 @@
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q101"
-			(at 1.27 4 360)
+			(at 1.27 4 0)
 			(layer "B.SilkS")
 			(uuid "e21a2c56-6ab5-4b8b-b0a7-d44cb6d31a11")
 			(effects
@@ -15326,7 +15365,7 @@
 			)
 		)
 		(property "Value" "2N3906"
-			(at 1.27 -2.79 360)
+			(at 1.27 -2.79 0)
 			(layer "B.Fab")
 			(uuid "530902de-bc99-4abf-a4f2-2dd98dea65d5")
 			(effects
@@ -15486,7 +15525,7 @@
 			(uuid "ea3b557d-9e87-406c-ae6c-05da27b72392")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "B.Fab")
 			(uuid "cf5bff28-9234-4df2-8ddf-5ad11b240f75")
 			(effects
@@ -16230,6 +16269,30 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "381229e2-c87d-4a68-80f7-c092e626bd68")
+	)
+	(gr_text "VCA V1\nMatthew Taylor\nBased on electricdruid.net LM13700 VCA"
+		(at 163 139 0)
+		(layer "B.SilkS")
+		(uuid "70dd2670-e2c9-4c28-a986-e4b9f64837af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 151.5 137.75 0)
+		(layer "F.SilkS")
+		(uuid "09320c1f-ffa7-4976-8b5b-236d235b7877")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 107.196267 69.328859)
