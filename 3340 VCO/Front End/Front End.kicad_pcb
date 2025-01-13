@@ -149,7 +149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_MountingHole:MountingHole_Pitch7.5mm_Drill3.4mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -240,7 +240,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_MountingHole:MountingHole_Pitch7.5mm_Drill3.4mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -331,7 +331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -561,7 +561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -800,7 +800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1172,7 +1172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1544,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1916,7 +1916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2186,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Capacitor_THT:C_Rect_L7.5mm_W5.5mm_P5.00mm"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2417,7 +2417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2789,7 +2789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3161,7 +3161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3431,7 +3431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_MP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3769,7 +3769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4039,7 +4039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4309,7 +4309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4579,7 +4579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4810,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5080,7 +5080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5310,7 +5310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5580,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5850,7 +5850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_MP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6188,7 +6188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_MP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6514,7 +6514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6886,7 +6886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_MP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7212,7 +7212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7494,7 +7494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_MP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7832,7 +7832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8204,7 +8204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8576,7 +8576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8858,7 +8858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9128,7 +9128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_MP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9452,7 +9452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Switch_THT:MTS-102_MTS-103_MTS-112_MTS-113_MTS-123"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9698,7 +9698,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

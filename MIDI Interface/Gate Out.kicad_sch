@@ -5,162 +5,6 @@
 	(uuid "2a78a312-8b70-4e1c-9b50-5bc1b6bce52d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "0_power:Chassis"
-			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "U"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Chassis"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Chassis_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Chassis_1_1"
-				(pin power_in line
-					(at 0 0 0)
-					(length 0) hide
-					(name "Chassis"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
@@ -550,200 +394,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Audio:AudioJack2_SwitchT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2_SwitchT"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_SwitchT_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.254) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack2_SwitchT_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -864,175 +514,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1364,12 +845,6 @@
 		)
 	)
 	(junction
-		(at 142.24 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0757beba-353d-4fa6-9f68-8dad7ed51a42")
-	)
-	(junction
 		(at 149.86 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1382,38 +857,16 @@
 		(uuid "2f5469f0-a331-4967-8f2b-5bd3edfe3c18")
 	)
 	(junction
-		(at 157.48 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "590c25e3-7899-4ed7-ba89-4fb336ad5dcd")
-	)
-	(junction
 		(at 134.62 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59ca396f-32eb-4676-a71a-65ddd47623f1")
 	)
 	(junction
-		(at 147.32 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f73dbda-8167-470a-b574-057e578d79d4")
-	)
-	(junction
 		(at 134.62 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dabbfec6-e3b6-401b-bd02-1ed8e2b6a250")
-	)
-	(junction
-		(at 134.62 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2c0e143-3a20-46de-8785-6a2ada769a40")
-	)
-	(no_connect
-		(at 162.56 95.25)
-		(uuid "3fe73805-d2fd-40ee-8c03-6ffd50890392")
 	)
 	(wire
 		(pts
@@ -1497,26 +950,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 152.4 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "994e93ec-6652-413f-847e-879950895bca")
-	)
-	(wire
-		(pts
-			(xy 152.4 73.66) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a4b5a14-9e0c-411a-bbcb-1b4d5a54bf6c")
-	)
-	(wire
-		(pts
 			(xy 134.62 120.65) (xy 142.24 120.65)
 		)
 		(stroke
@@ -1524,16 +957,6 @@
 			(type default)
 		)
 		(uuid "a0979f0d-01e2-4e48-8b4f-a167061b970c")
-	)
-	(wire
-		(pts
-			(xy 134.62 73.66) (xy 134.62 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c09d268f-8624-494f-95d9-054b37f7e115")
 	)
 	(wire
 		(pts
@@ -1547,16 +970,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 81.28) (xy 147.32 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d435ae28-7923-410a-acae-a187e6d88d4a")
-	)
-	(wire
-		(pts
 			(xy 134.62 110.49) (xy 138.43 110.49)
 		)
 		(stroke
@@ -1565,15 +978,17 @@
 		)
 		(uuid "dd68ca69-ad0b-4487-8b0f-f298d8a68eb3")
 	)
-	(wire
-		(pts
-			(xy 157.48 97.79) (xy 162.56 97.79)
+	(hierarchical_label "OUT"
+		(shape input)
+		(at 157.48 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab151e1-1f4e-44e3-bda8-8830b7dab197")
+		(uuid "199f6da6-cd5b-4863-9310-72d13100a371")
 	)
 	(hierarchical_label "IN"
 		(shape input)
@@ -1597,7 +1012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28dd1dee-49e6-4e7f-bb38-872bcabb1656")
-		(property "Reference" "C302"
+		(property "Reference" "C702"
 			(at 142.24 102.87 90)
 			(effects
 				(font
@@ -1648,36 +1063,36 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "C302")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "C702")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "C402")
 					(unit 1)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "C502")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "C602")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "C702")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "C802")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
+					(reference "C302")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
 					(reference "C902")
 					(unit 1)
 				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
+					(reference "C602")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "C502")
+					(unit 1)
+				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "C1002")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
+					(reference "C802")
 					(unit 1)
 				)
 			)
@@ -1693,7 +1108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4c8e0c-9f4e-41b0-a92a-05fe7ec0529a")
-		(property "Reference" "R303"
+		(property "Reference" "R703"
 			(at 137.16 123.1899 0)
 			(effects
 				(font
@@ -1746,141 +1161,36 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "R303")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "R703")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "R403")
 					(unit 1)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "R503")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "R603")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "R703")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "R803")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
+					(reference "R303")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
 					(reference "R903")
 					(unit 1)
 				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
+					(reference "R603")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "R503")
+					(unit 1)
+				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "R1003")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 152.4 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c304c0f-841b-45b8-8195-18a9ca2d8186")
-		(property "Reference" "D301"
-			(at 156.21 77.7874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 156.21 80.3274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Yellow"
-			(at 158.75 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80fe6ecb-9ae3-4aeb-a882-11aa58ee3425")
-		)
-		(pin "2"
-			(uuid "a8e960c3-6d01-4853-9458-2ce42e44db97")
-		)
-		(instances
-			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "D301")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
-					(reference "D401")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "D501")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "D601")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "D701")
-					(unit 1)
-				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "D801")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
-					(reference "D901")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
-					(reference "D1001")
+					(reference "R803")
 					(unit 1)
 				)
 			)
@@ -1896,7 +1206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d3532da-3cb2-4b84-96e2-10468d26fd89")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0702"
 			(at 134.62 134.62 0)
 			(effects
 				(font
@@ -1945,36 +1255,36 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "#PWR0302")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "#PWR0702")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "#PWR0402")
 					(unit 1)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "#PWR0502")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "#PWR0602")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "#PWR0702")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "#PWR0802")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
+					(reference "#PWR0302")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
 					(reference "#PWR0902")
 					(unit 1)
 				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
+					(reference "#PWR0602")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "#PWR0502")
+					(unit 1)
+				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "#PWR01002")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -1990,7 +1300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683c1d0e-092c-44fe-9082-e795c4a2e1a0")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0701"
 			(at 124.46 102.87 0)
 			(effects
 				(font
@@ -2039,132 +1349,36 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "#PWR0301")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "#PWR0701")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "#PWR0401")
 					(unit 1)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "#PWR0501")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "#PWR0601")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "#PWR0701")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "#PWR0801")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
+					(reference "#PWR0301")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
 					(reference "#PWR0901")
 					(unit 1)
 				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
+					(reference "#PWR0601")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "#PWR0501")
+					(unit 1)
+				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "#PWR01001")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 138.43 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79b46a65-19da-44c5-b18a-0300507612c0")
-		(property "Reference" "R304"
-			(at 138.43 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22k"
-			(at 138.43 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 138.43 75.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d811d216-f51f-4417-ad45-7256bfe3a3fd")
-		)
-		(pin "2"
-			(uuid "4d008f8b-7593-4c11-98f1-79415c042afa")
-		)
-		(instances
-			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "R304")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
-					(reference "R404")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "R504")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "R604")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "R704")
-					(unit 1)
-				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "R804")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
-					(reference "R904")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
-					(reference "R1004")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -2180,7 +1394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "833801a1-bfd0-4ae7-ad9e-f1961bff63f5")
-		(property "Reference" "R302"
+		(property "Reference" "R702"
 			(at 128.27 93.98 90)
 			(effects
 				(font
@@ -2231,36 +1445,36 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "R302")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "R702")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "R402")
 					(unit 1)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "R502")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "R602")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "R702")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "R802")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
+					(reference "R302")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
 					(reference "R902")
 					(unit 1)
 				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
+					(reference "R602")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "R502")
+					(unit 1)
+				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "R1002")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
+					(reference "R802")
 					(unit 1)
 				)
 			)
@@ -2276,7 +1490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "833cdfe3-d69b-494d-bf7d-1f1894481d90")
-		(property "Reference" "U202"
+		(property "Reference" "U203"
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -2363,37 +1577,37 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "U202")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "U203")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "U202")
 					(unit 2)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
 					(reference "U202")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
+					(reference "U203")
 					(unit 3)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
 					(reference "U202")
 					(unit 4)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "U203")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "U203")
-					(unit 2)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
-					(reference "U203")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "U202")
 					(unit 3)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "U203")
 					(unit 4)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
+					(reference "U203")
+					(unit 2)
 				)
 			)
 		)
@@ -2408,7 +1622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c54e8c6b-ba7f-4fcf-a89d-8b1111864834")
-		(property "Reference" "R301"
+		(property "Reference" "R701"
 			(at 128.27 83.82 90)
 			(effects
 				(font
@@ -2459,36 +1673,36 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "R301")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "R701")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "R401")
 					(unit 1)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "R501")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "R601")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "R701")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "R801")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
+					(reference "R301")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
 					(reference "R901")
 					(unit 1)
 				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
+					(reference "R601")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "R501")
+					(unit 1)
+				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "R1001")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
+					(reference "R801")
 					(unit 1)
 				)
 			)
@@ -2504,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d897d392-08dc-492b-804e-e7aae3fb0889")
-		(property "Reference" "R305"
+		(property "Reference" "R705"
 			(at 146.05 114.3 90)
 			(effects
 				(font
@@ -2555,419 +1769,36 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "R305")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "R705")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "R405")
 					(unit 1)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "R505")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "R605")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "R705")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "R805")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
+					(reference "R305")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
 					(reference "R905")
 					(unit 1)
 				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
+					(reference "R605")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "R505")
+					(unit 1)
+				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "R1005")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 142.24 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "debb4be4-3c69-4bf9-adff-706778980f53")
-		(property "Reference" "C301"
-			(at 146.05 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "68n"
-			(at 146.05 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W2.5mm_P2.50mm"
-			(at 141.2748 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddb65207-cf42-4347-9a2b-716f064b4da2")
-		)
-		(pin "2"
-			(uuid "6cde63a2-7ef6-4a2d-8f9c-37a3a0d6d9d5")
-		)
-		(instances
-			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "C301")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
-					(reference "C401")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "C501")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "C601")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "C701")
-					(unit 1)
-				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "C801")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
-					(reference "C901")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
-					(reference "C1001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 167.64 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4ad9aed-ebcd-49a4-8e8d-5a91447bb7f2")
-		(property "Reference" "J301"
-			(at 167.64 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 167.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 167.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 167.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "98be6640-29fc-4a87-9e87-1cf155fc531d")
-		)
-		(pin "T"
-			(uuid "e1ad8e69-4846-4d76-bf6b-a843a54ab80d")
-		)
-		(pin "TN"
-			(uuid "084770ca-6e42-4b13-8ba4-893ba2433435")
-		)
-		(instances
-			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "J301")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
-					(reference "J401")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "J501")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "J601")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "J701")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "J801")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
-					(reference "J901")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
-					(reference "J1001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f893ea5d-dcd4-432b-a512-596aa7866daf")
-		(property "Reference" "#PWR0303"
-			(at 147.32 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8989e7f-8663-49fc-a23d-90bbdfdadddb")
-		)
-		(instances
-			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "#PWR0303")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
-					(reference "#PWR0403")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "#PWR0503")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "#PWR0603")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "#PWR0703")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "#PWR0803")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
-					(reference "#PWR0903")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
-					(reference "#PWR01003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_power:Chassis")
-		(at 162.56 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "f9f699ae-bd93-4789-929b-c4f079acd648")
-		(property "Reference" "#U0301"
-			(at 162.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Chassis"
-			(at 162.56 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e8cbda2-272a-447b-b13a-15f510136bbc")
-		)
-		(instances
-			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "#U0301")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
-					(reference "#U0401")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "#U0501")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "#U0601")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "#U0701")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "#U0801")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
-					(reference "#U0901")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
-					(reference "#U01001")
+					(reference "R805")
 					(unit 1)
 				)
 			)
@@ -2983,7 +1814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3926a0-1785-4c3a-83a4-fcf06cebe157")
-		(property "Reference" "R306"
+		(property "Reference" "R706"
 			(at 153.67 91.44 90)
 			(effects
 				(font
@@ -3034,36 +1865,36 @@
 		)
 		(instances
 			(project "MIDI Interface"
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
-					(reference "R306")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
+					(reference "R706")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/201825a7-fc9a-430d-9e20-1938b8843581"
 					(reference "R406")
 					(unit 1)
 				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
-					(reference "R506")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
-					(reference "R606")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/13740992-3d73-4d5e-8e29-036a92b8d4b9"
-					(reference "R706")
-					(unit 1)
-				)
-				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
-					(reference "R806")
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/26779991-28b9-4337-9018-7518bccc8c66"
+					(reference "R306")
 					(unit 1)
 				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/94e09ce2-fa91-47b3-b9c1-58d1a9336714"
 					(reference "R906")
 					(unit 1)
 				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/de5811ba-181f-4731-b29a-79d007175a4f"
+					(reference "R606")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/e3c7535a-0ab5-49e5-bf68-6693ddc1a787"
+					(reference "R506")
+					(unit 1)
+				)
 				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/ed5f174f-6173-4ddc-83b0-40ee18d6ab2f"
 					(reference "R1006")
+					(unit 1)
+				)
+				(path "/ea321261-9b18-4fdd-a8f2-7968159fd052/78e82a31-c1ea-4bf2-a7dd-2a7fee4532dc/fe9738ba-65a0-4a4f-a891-61e1a9a920b8"
+					(reference "R806")
 					(unit 1)
 				)
 			)
