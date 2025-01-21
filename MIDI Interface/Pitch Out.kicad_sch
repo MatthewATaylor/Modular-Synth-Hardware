@@ -846,6 +846,16 @@
 		)
 		(uuid "fcf868eb-1a3f-4d95-a0bb-81c7f4386c64")
 	)
+	(text "0.1% tolerance"
+		(exclude_from_sim no)
+		(at 149.86 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50141946-f8c9-4926-9103-59acd7c06afd")
+	)
 	(hierarchical_label "OUT"
 		(shape input)
 		(at 149.86 92.71 0)

@@ -1105,7 +1105,7 @@
 				)
 			)
 		)
-		(symbol "Connector:AudioJack3"
+		(symbol "Connector_Audio:AudioJack3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1750,7 +1750,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 4.318 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1835,9 +1835,20 @@
 				)
 			)
 			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.651 2.286)
+						(xy -1.524 0.254) (xy 1.5748 2.286)
 					)
 					(stroke
 						(width 0)
@@ -2024,7 +2035,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2144,7 +2155,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2240,7 +2251,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3091,7 +3102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 			(at 122.301 86.233 0)
 			(effects
 				(font
@@ -3174,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 179.07 64.008 90)
 			(effects
 				(font
@@ -3260,7 +3271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 46.99 0)
 			(effects
 				(font
@@ -3307,7 +3318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Switch_THT:MTS-202"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -3325,7 +3336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -3427,7 +3438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:AudioJack3")
+		(lib_id "Connector_Audio:AudioJack3")
 		(at 203.2 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3453,7 +3464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ366ST_Vertical_CircularHoles"
 			(at 203.2 72.39 0)
 			(effects
 				(font
@@ -3471,7 +3482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
 			(at 203.2 72.39 0)
 			(effects
 				(font
@@ -3619,7 +3630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -3754,7 +3765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 90.17 133.35 0)
 			(effects
 				(font
@@ -3801,7 +3812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 91.44 96.52 0)
 			(effects
 				(font
@@ -3887,7 +3898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 190.5 127.3048 0)
 			(effects
 				(font
@@ -4024,7 +4035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -4128,7 +4139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 156.21 39.37 0)
 			(effects
 				(font
@@ -4175,7 +4186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 102.87 77.978 90)
 			(effects
 				(font
@@ -4261,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -4326,7 +4337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -4392,7 +4403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -4439,7 +4450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 179.07 119.888 90)
 			(effects
 				(font
@@ -4507,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 102.87 98.298 90)
 			(effects
 				(font
@@ -4575,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_MP"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -4668,7 +4679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 125.73 111.76 0)
 			(effects
 				(font
@@ -4716,7 +4727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 160.02 60.96 0)
 			(effects
 				(font
@@ -4941,7 +4952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Switch_THT:MTS-202"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -4959,7 +4970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -5021,7 +5032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 179.07 130.048 90)
 			(effects
 				(font
@@ -5108,7 +5119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -5173,7 +5184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 102.87 0)
 			(effects
 				(font
@@ -5285,7 +5296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 190.5 61.2648 0)
 			(effects
 				(font
@@ -5354,7 +5365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 160.02 116.84 0)
 			(effects
 				(font
@@ -5440,7 +5451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 179.07 74.168 90)
 			(effects
 				(font
@@ -5510,7 +5521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 96.52 125.73 0)
 			(effects
 				(font
@@ -5596,7 +5607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 190.5 117.1448 0)
 			(effects
 				(font
@@ -5683,7 +5694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -5749,7 +5760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 90.17 118.11 0)
 			(effects
 				(font
@@ -5948,7 +5959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 138.43 0)
 			(effects
 				(font
@@ -6014,7 +6025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 73.66 0)
 			(effects
 				(font
@@ -6105,7 +6116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:AudioJack3")
+		(lib_id "Connector_Audio:AudioJack3")
 		(at 203.2 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6131,7 +6142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ366ST_Vertical_CircularHoles"
 			(at 203.2 128.27 0)
 			(effects
 				(font
@@ -6149,7 +6160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
 			(at 203.2 128.27 0)
 			(effects
 				(font
@@ -6210,7 +6221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Capacitor_THT:C_Disc_D5.5mm_W4.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 190.5 71.4248 0)
 			(effects
 				(font
@@ -6296,7 +6307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 82.55 0)
 			(effects
 				(font
@@ -6361,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 156.21 95.25 0)
 			(effects
 				(font

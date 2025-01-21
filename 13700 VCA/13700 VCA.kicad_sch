@@ -9013,7 +9013,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Odd_Even"
+		(property "Value" "Conn_02x05_Top_Bottom"
 			(at 21.59 177.8 90)
 			(effects
 				(font
