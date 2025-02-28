@@ -4029,7 +4029,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 163.83 151.13 90)
+		(at 254 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4037,7 +4037,7 @@
 		(dnp no)
 		(uuid "23ff5059-e82a-4188-901c-663b76e1003e")
 		(property "Reference" "H5"
-			(at 163.7538 145.1102 90)
+			(at 253.9238 112.0902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4045,7 @@
 			)
 		)
 		(property "Value" "MNT_STANDOFF"
-			(at 163.7538 147.4216 90)
+			(at 253.9238 114.4016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4053,7 @@
 			)
 		)
 		(property "Footprint" "0_MountingHole:MountingHole_Pitch7.5mm_Drill3.4mm"
-			(at 163.83 151.13 0)
+			(at 254 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 151.13 0)
+			(at 254 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,7 +4071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 151.13 0)
+			(at 254 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4364,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 147.32 158.75 90)
+		(at 237.49 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4372,7 +4372,7 @@
 		(dnp no)
 		(uuid "3216a9f1-675e-4946-93e9-92954dcc210c")
 		(property "Reference" "H4"
-			(at 147.2438 152.7302 90)
+			(at 237.4138 119.7102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4380,7 @@
 			)
 		)
 		(property "Value" "MNT_STANDOFF"
-			(at 147.2438 155.0416 90)
+			(at 237.4138 122.0216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4388,7 @@
 			)
 		)
 		(property "Footprint" "0_MountingHole:MountingHole_Pitch7.5mm_Drill3.4mm"
-			(at 147.32 158.75 0)
+			(at 237.49 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 158.75 0)
+			(at 237.49 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 158.75 0)
+			(at 237.49 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4428,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 158.75 0)
+		(at 240.03 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4436,7 +4436,7 @@
 		(dnp no)
 		(uuid "410deea6-1393-4e02-a0b6-d2ea78e8c5db")
 		(property "Reference" "#PWR05"
-			(at 149.86 165.1 0)
+			(at 240.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.987 163.1442 0)
+			(at 240.157 130.1242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 158.75 0)
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 158.75 0)
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 158.75 0)
+			(at 240.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +4623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 151.13 0)
+		(at 256.54 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4631,7 +4631,7 @@
 		(dnp no)
 		(uuid "4b26d29f-c561-4b06-a0bd-bb2d81d96d01")
 		(property "Reference" "#PWR08"
-			(at 166.37 157.48 0)
+			(at 256.54 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.497 155.5242 0)
+			(at 256.667 122.5042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 151.13 0)
+			(at 256.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 151.13 0)
+			(at 256.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 151.13 0)
+			(at 256.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4822,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 147.32 143.51 90)
+		(at 237.49 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4830,7 +4830,7 @@
 		(dnp no)
 		(uuid "66b25596-a288-4750-ac0d-3e9319ee6840")
 		(property "Reference" "H3"
-			(at 147.2438 137.4902 90)
+			(at 237.4138 104.4702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4838,7 @@
 			)
 		)
 		(property "Value" "MNT_STANDOFF"
-			(at 147.2438 139.8016 90)
+			(at 237.4138 106.7816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4846,7 @@
 			)
 		)
 		(property "Footprint" "0_MountingHole:MountingHole_Pitch7.5mm_Drill3.4mm"
-			(at 147.32 143.51 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 143.51 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +4864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 143.51 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5486,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 138.43 50.8 90)
+		(at 138.43 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5494,7 +5494,7 @@
 		(dnp no)
 		(uuid "a95bd119-b6bb-41cc-8059-b4d5cf71a067")
 		(property "Reference" "C8"
-			(at 138.43 44.45 90)
+			(at 138.43 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5502,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 138.43 46.99 90)
+			(at 138.43 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5510,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 142.24 49.8348 0)
+			(at 134.62 51.7652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,8 +5536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Electrolytic (THIS DIRECTION IS WRONG)"
-			(at 114.3 51.435 90)
+		(property "Notes" "Electrolytic"
+			(at 128.016 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6278,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 143.51 0)
+		(at 240.03 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6286,7 +6286,7 @@
 		(dnp no)
 		(uuid "f13da80c-c5a6-4b41-b159-d2e4e862d845")
 		(property "Reference" "#PWR04"
-			(at 149.86 149.86 0)
+			(at 240.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6295,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.987 147.9042 0)
+			(at 240.157 114.8842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +6303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 143.51 0)
+			(at 240.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +6312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 143.51 0)
+			(at 240.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 143.51 0)
+			(at 240.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
