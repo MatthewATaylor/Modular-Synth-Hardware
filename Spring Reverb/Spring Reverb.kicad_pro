@@ -187,7 +187,8 @@
       ],
       "track_widths": [
         0.0,
-        0.75,
+        0.25,
+        0.5,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -464,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Front End.kicad_pro",
+    "filename": "Spring Reverb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -624,7 +625,7 @@
   },
   "sheets": [
     [
-      "c88b5ac6-b711-455e-9dcf-387cc2497826",
+      "bb28355a-c1dd-4ed6-b4cd-ed1fe81132c1",
       "Root"
     ]
   ],
